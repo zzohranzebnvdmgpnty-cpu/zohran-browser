@@ -1,0 +1,114 @@
+/* =================================
+   ZOHRAN BROWSER — LIQUID GLASS
+   ================================= */
+
+QMainWindow {
+    background-color: #101018;
+    color: #ffffff;
+}
+
+QWidget {
+    color: #f5f5fa;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+QToolBar {
+    background-color: rgba(30, 30, 45, 240);
+    border: none;
+    border-bottom: 1px solid #45455c;
+    spacing: 8px;
+    padding: 12px;
+}
+
+QLineEdit {
+    background-color: #252536;
+    border: 1px solid #484864;
+    border-radius: 18px;
+    padding: 10px 16px;
+    selection-background-color: #8b5cf6;
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #a78bfa;
+    background-color: #303047;
+}
+
+QPushButton {
+    background-color: #29293d;
+    border: 1px solid #45455c;
+    border-radius: 12px;
+    padding: 9px 15px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #484064;
+    border: 1px solid #a78bfa;
+}
+
+QPushButton:pressed {
+    background-color: #6d4acb;
+}
+
+QTabWidget::pane {
+    background-color: #15151f;
+    border: 1px solid #353549;
+    border-radius: 12px;
+}
+
+QTabBar::tab {
+    background-color: #222233;
+    color: #c8c8d8;
+    padding: 10px 20px;
+    margin-right: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+QTabBar::tab:selected {
+    background-color: #45405f;
+    color: white;
+    border-bottom: 2px solid #b49aff;
+}
+
+QTabBar::tab:hover {
+    background-color: #35354b;
+}
+
+QMenu {
+    background-color: #242437;
+    color: white;
+    border: 1px solid #555570;
+    padding: 6px;
+}
+
+QMenu::item {
+    padding: 8px 25px;
+    border-radius: 6px;
+}
+
+QMenu::item:selected {
+    background-color: #6d4acb;
+}
+
+QDialog {
+    background-color: #181824;
+}
+
+QListWidget {
+    background-color: #222233;
+    border: 1px solid #45455c;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+QListWidget::item {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+QListWidget::item:selected {
+    background-color: #6d4acb;
+}
